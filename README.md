@@ -1,6 +1,6 @@
 # openks - 博客
 
-## 简介
+## Introduction / 简介
 
 * 所有博客文章均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/openks/blog/issues)。
 
@@ -8,7 +8,7 @@
 
 * 如果你想评论，直接在每篇博文的下方评论即可。如果你有任何想说的话，都请果断评论！
 
-## 关于作者 / About
+## About / 关于作者
 
 My cyber-name is "openks". I'm a web front-end engineer , working for an internet company in Shanghai China.
 
@@ -22,7 +22,7 @@ My cyber-name is "openks". I'm a web front-end engineer , working for an interne
 
 GitHub: @openks
 
-## 版权协议
+## CopyRight / 版权协议
 
 除注明外，所有文章均采用 [Creative Commons BY-NC-ND 3.0（自由转载-保持署名-非商用-非衍生）](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh) 协议发布。
 
