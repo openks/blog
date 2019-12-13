@@ -1,17 +1,17 @@
-<mxfile host="www.draw.io" modified="2019-12-13T08:07:23.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="mkpzkECMKGzmlJ0WXy17" version="12.4.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-13T08:09:07.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PRPBgcgWqAgOSgT1kip1" version="12.4.1" type="github" pages="1">
   <diagram id="y_M2VVkyht-YBtFJhvMI" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-1" value="浏览器请求" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
-          <mxGeometry x="600" y="30" width="130" height="40" as="geometry"/>
+          <mxGeometry x="940" y="40" width="130" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uzp1dm4hbMd656gRFhL0-4" target="Uzp1dm4hbMd656gRFhL0-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-4" value="无缓存" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="130" height="40" as="geometry"/>
+          <mxGeometry x="940" y="110" width="130" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uzp1dm4hbMd656gRFhL0-6" target="Uzp1dm4hbMd656gRFhL0-8">
           <mxGeometry relative="1" as="geometry"/>
@@ -20,25 +20,25 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-6" value="向web服务器请求" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="600" y="180" width="130" height="40" as="geometry"/>
+          <mxGeometry x="940" y="190" width="130" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uzp1dm4hbMd656gRFhL0-8" target="Uzp1dm4hbMd656gRFhL0-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-8" value="请求响应，协商缓存&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="600" y="260" width="130" height="40" as="geometry"/>
+          <mxGeometry x="940" y="270" width="130" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-11" value="页面呈现" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="600" y="340" width="130" height="40" as="geometry"/>
+          <mxGeometry x="940" y="350" width="130" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="Uzp1dm4hbMd656gRFhL0-1" target="Uzp1dm4hbMd656gRFhL0-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="130" as="sourcePoint"/>
-            <mxPoint x="770" y="80" as="targetPoint"/>
+            <mxPoint x="1060" y="140" as="sourcePoint"/>
+            <mxPoint x="1110" y="90" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-14" value="&lt;h1 style=&quot;font-size: 18px&quot;&gt;缓存处理&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: -webkit-center&quot;&gt;判断是否缓存相关内容,即一下4个字段&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: -webkit-center&quot;&gt;1.Expires/Cache-Control&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;helvetica&amp;#34; , sans-serif ; text-align: -webkit-center&quot;&gt;2.Last-modified/Etag&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="763" y="220" width="230" height="120" as="geometry"/>
+          <mxGeometry x="1103" y="230" width="230" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="Uzp1dm4hbMd656gRFhL0-16" value="浏览器请求" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;labelBackgroundColor=none;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="70" width="140" height="40" as="geometry"/>
