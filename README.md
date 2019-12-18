@@ -16,7 +16,7 @@ My cyber-name is "openks". I'm a web front-end engineer , working for an interne
 
 ## Contact / 联系方式
 
-* Email / 电子邮件： openks@foxmail.com
+* Email / 电子邮件： openks[at]foxmail.com
 
 ## SNS / 社交网络
 
